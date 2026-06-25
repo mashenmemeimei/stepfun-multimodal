@@ -43,3 +43,7 @@ output/
 
 # Logs
 *.log
+
+# Keep incident logs / changelog accessible
+!docs/**
+!CHANGELOG.md

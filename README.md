@@ -8,6 +8,9 @@ Step Plan 图像模型（`step-image-edit-2`）的轻量接入：
 
 API Key **不**写进代码、不进仓库 —— 自动从 CCSwitch (`~/.cc-switch/cc-switch.db`) 的 StepFun provider 复用，Claude Code 和 Codex 共用一份订阅。
 
+> 调试翻车记录与依赖设计踩坑，见 [docs/incidents/](docs/incidents/)。
+> 变更日志见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 项目结构
 
 ```
