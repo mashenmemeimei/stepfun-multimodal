@@ -1,0 +1,16 @@
+[project]
+name = "stepfun-image"
+version = "0.1.0"
+description = "CLI + Python client for StepFun text-to-image / image-edit (Step Plan)."
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31"]
+
+[project.scripts]
+stepfun = "stepfun_image.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["stepfun_image*"]
