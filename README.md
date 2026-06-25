@@ -1,10 +1,16 @@
-# stepfun-image
+# stepfun-multimodal
 
-Step Plan 图像模型（`step-image-edit-2`）的轻量接入：
+Step Plan 多模态接入：图像（`step-image-edit-2`）+ 语音（`stepaudio-2.5-tts/asr/chat/realtime`）。
 
-- **CLI**：`stepfun t2i ...` / `stepfun edit ...` / `stepfun whoami`
-- **Python SDK**：`from stepfun_image import StepFunImageClient`
-- **Claude Code / Codex skill**：见 `~/.claude/skills/stepfun-image/SKILL.md`
+- **CLI**：
+  - 图像：`python -m stepfun_image.cli {t2i,edit,whoami}`
+  - 语音：`python -m stepfun_audio.cli {tts,asr,chat,tts-stream,realtime,voices}`
+- **Python SDK**：`from stepfun_image import StepFunImageClient` · `from stepfun_audio import StepFunAudioClient, StepFunChatClient, ...`
+- **Claude Code / Codex skills**：
+  - `~/.claude/skills/stepfun-image/SKILL.md` — 图像
+  - `~/.claude/skills/stepfun-audio/SKILL.md` — 语音
+
+> GitHub 仓库原名 `stepfun-image`，已更名为 `stepfun-multimodal`（2026-06-25）。Python 包名（`stepfun_image` / `stepfun_audio`）保持不变以避免破坏现有 import。
 
 API Key **不**写进代码、不进仓库 —— 自动从 CCSwitch (`~/.cc-switch/cc-switch.db`) 的 StepFun provider 复用，Claude Code 和 Codex 共用一份订阅。
 

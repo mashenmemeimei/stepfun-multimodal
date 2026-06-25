@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `stepfun-image` are documented in this file.
+All notable changes to `stepfun-multimodal` are documented in this file.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com),
 and this project adheres to [Semantic Versioning](https://semver.org/).
@@ -55,6 +55,6 @@ for the full probe transcript and reasoning.
   [docs/incidents/2026-06-25-ci-missing-requests.md](docs/incidents/2026-06-25-ci-missing-requests.md)
   for the full post-mortem.
 
-[Unreleased]: https://github.com/mashenmemeimei/stepfun-image/compare/2889745...HEAD
-[0.2.0]: https://github.com/mashenmemeimei/stepfun-image/compare/ce08b85...2889745
-[0.1.0]: https://github.com/mashenmemeimei/stepfun-image/releases/tag/v0.1.0
+[Unreleased]: https://github.com/mashenmemeimei/stepfun-multimodal/compare/a49509d...HEAD
+[0.2.0]: https://github.com/mashenmemeimei/stepfun-multimodal/compare/ce08b85...a49509d
+[0.1.0]: https://github.com/mashenmemeimei/stepfun-multimodal/releases/tag/v0.1.0

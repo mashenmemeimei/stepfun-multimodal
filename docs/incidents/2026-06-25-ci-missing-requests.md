@@ -81,5 +81,5 @@ CI 一行命令就够了：
 ```text
 local: pytest -v → 13 passed
 CI:    pytest (3.10/3.11/3.12) → 3 jobs success
-URL:   https://github.com/mashenmemeimei/stepfun-image/actions/runs/28151977486
+URL:   https://github.com/mashenmemeimei/stepfun-multimodal/actions/runs/28151977486
 ```

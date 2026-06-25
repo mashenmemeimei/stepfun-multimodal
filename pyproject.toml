@@ -1,5 +1,5 @@
 [project]
-name = "stepfun-image"
+name = "stepfun-multimodal"
 version = "0.1.0"
 description = "CLI + Python client for StepFun text-to-image / image-edit (Step Plan)."
 requires-python = ">=3.10"

@@ -1,4 +1,4 @@
-"""Shared fixtures for stepfun-image tests."""
+"""Shared fixtures for stepfun-multimodal tests."""
 
 from __future__ import annotations
 
